@@ -37,7 +37,10 @@ Default: 1
 }
 
 html {
-  font-size: 10px;
+  /* now rem will be easy to calculate */
+  /* if set font-size directly to 10px, user will be impacted
+  10/16 = 0.625, which is percentage of user's browser font-size setting */
+  font-size: 62.5%;
 }
 
 body {
