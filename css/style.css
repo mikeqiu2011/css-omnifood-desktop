@@ -44,7 +44,11 @@ body {
 }
 
 .test {
-  max-width: 1000px;
+  /* 1rem equals 16px as the default font size, if you change
+  font size, the rem changes accordingly */
+  max-width: 50rem;
+  color: #fff;
+  font-size: 2rem;
   background-color: red;
-  padding: 100px;
+  padding: 4rem;
 }
