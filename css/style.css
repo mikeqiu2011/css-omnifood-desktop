@@ -50,12 +50,13 @@ body {
   color: #555;
 }
 
-.test {
-  /* 1rem equals 16px as the default font size, if you change
-  font size, the rem changes accordingly */
-  max-width: 50rem;
-  color: #fff;
-  font-size: 2rem;
-  background-color: red;
-  padding: 4rem;
+.hero {
+  max-width: 100rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+  width: 100%;
 }
