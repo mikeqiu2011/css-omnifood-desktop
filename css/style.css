@@ -50,6 +50,10 @@ body {
   color: #555;
 }
 
+.section-hero {
+  background-color: #fdf2e9;
+}
+
 .hero {
   max-width: 100rem;
   margin: 0 auto;
@@ -57,7 +61,6 @@ body {
   grid-template-columns: 1fr 1fr;
   column-gap: 3.2rem;
   align-items: center;
-  background-color: #fdf2e9;
 }
 
 .heading-primary {
