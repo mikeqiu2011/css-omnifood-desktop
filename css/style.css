@@ -86,6 +86,7 @@ body {
 .btn:link,
 .btn:visited {
   text-decoration: none;
+  font-weight: 600;
   font-size: 2rem;
   border-radius: 9px;
   display: inline-block;
@@ -115,4 +116,35 @@ body {
 /* helper class */
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.delivered-meals {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  margin-top: 8rem;
+}
+.delivered-imgs {
+  display: flex;
+}
+.delivered-imgs img {
+  height: 4.8rem;
+  /* width: 6.4rem; */
+  border-radius: 50%;
+  /* overlap each img */
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
+.delivered-imgs img:last-child {
+  /* fix the last space issue */
+  margin-right: 0;
+}
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.delivered-text span {
+  /* font-size: 2.4rem; */
+  font-weight: 700;
+  color: #cf711f;
 }
