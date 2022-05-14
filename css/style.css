@@ -120,6 +120,11 @@
 }
 .logos img {
   height: 3.2rem;
+  /* filter: grayscale(1); */
+  /* change image to completely black */
+  filter: brightness(0);
+  /* makes the image grey */
+  opacity: 50%;
 }
 
 /* How it works section */
