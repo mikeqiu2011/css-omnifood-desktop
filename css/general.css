@@ -169,3 +169,7 @@ strong {
   color: #cf711f;
   border-bottom: 1px transparent;
 }
+
+.center-text {
+  text-align: center;
+}
