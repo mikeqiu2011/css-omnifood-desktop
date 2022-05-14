@@ -64,7 +64,11 @@ body {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+.grid--center-v {
+  align-items: center;
 }
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
@@ -95,6 +99,9 @@ body {
   margin-bottom: 9.6rem;
 }
 .heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
 }
 
 .subheading {
