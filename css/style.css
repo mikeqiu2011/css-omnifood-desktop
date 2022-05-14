@@ -209,6 +209,13 @@ body {
   background-color: orangered;
   display: grid;
 }
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
 .grid {
   display: grid;
   gap: 9.6rem;
@@ -219,19 +226,11 @@ body {
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
-.section-how div {
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.section-how div div {
   padding: 100px;
   font-size: 50px;
-}
-.section-how div:nth-child(1) {
-  background-color: aqua;
-}
-.section-how div:nth-child(2) {
-  background-color: blue;
-}
-.section-how div:nth-child(3) {
-  background-color: violet;
-}
-.section-how div:nth-child(4) {
-  background-color: yellow;
+  background-color: #333;
 }
