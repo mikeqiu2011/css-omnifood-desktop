@@ -41,6 +41,12 @@ default 9px
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  outline: 4px dotted #e67e22;
+  outline-offset: 8px;
+}
+
 html {
   /* now rem will be easy to calculate */
   /* if set font-size directly to 10px, user will be impacted
@@ -161,6 +167,10 @@ body {
   color: #fdf2e9;
   align-self: end;
   padding: 1.2rem;
+}
+.btn--form:hover {
+  background-color: #fff;
+  color: #333;
 }
 
 strong {
