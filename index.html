@@ -521,11 +521,33 @@
                 first meal is on us!
               </p>
               <form class="cta-form" action="#">
-                <label for="full-name">full name</label>
-                <input id="full-name" type="text" placeholder="john smith" />
-
-                <label for="email">Email address</label>
-                <input id="email" type="email" placeholder="me@example.com" />
+                <div>
+                  <label for="full-name">full name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="john smith"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="select-where">Where did you hear from us</label>
+                  <select name="" id="select-where" required>
+                    <option value="">Pls choose one option</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">Youtube video</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
                 <button class="btn">Sign up now</button>
               </form>
             </div>
