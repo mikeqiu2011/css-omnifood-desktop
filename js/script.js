@@ -4,7 +4,11 @@ const myName = 'Mike';
 const h1 = document.querySelector('.heading-primary');
 console.log(h1);
 
-h1.textContent = myName;
+h1.addEventListener('click', () => {
+  h1.textContent = myName;
+  h1.style.backgroundColor = 'red';
+  h1.style.padding = '5rem';
+});
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
