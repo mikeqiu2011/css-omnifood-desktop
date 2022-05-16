@@ -62,7 +62,7 @@
 }
 
 /* sticky navigation */
-.sticky {
+.sticky .header {
   position: fixed;
   /* top: 0; */
   /* bottom: 0; */
@@ -73,6 +73,11 @@
   background-color: rgba(255, 255, 255, 0.97);
   z-index: 999;
   box-shadow: 0 1.2rem 3.232m rgba(0, 0, 0, 0.03);
+}
+
+/* compensate added header */
+.sticky .section-hero {
+  margin-top: 9.6rem;
 }
 
 /* HERO */
