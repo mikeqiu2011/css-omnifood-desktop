@@ -16,10 +16,15 @@ const Currentyear = new Date().getFullYear();
 yearEl.textContent = Currentyear;
 
 // make mobile navigation work
-const menuEl = document.querySelector('.btn-mobile-nav');
+const menuEl = document.querySelector('.btn-open');
+const closeEl = document.querySelector('.btn-close');
 const headerEl = document.querySelector('.header');
 menuEl.addEventListener('click', () => {
   console.log('clicked');
+  headerEl.classList.toggle('nav-open');
+});
+closeEl.addEventListener('click', () => {
+  console.log('close clicked');
   headerEl.classList.toggle('nav-open');
 });
 
